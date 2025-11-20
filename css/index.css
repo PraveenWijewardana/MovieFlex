@@ -87,3 +87,7 @@ body{
     line-height: 1.6;
     text-shadow: 0 1px 0 rgba(0,0,0,0.4);
 }
+.img-fluid{
+    height: 200px;
+    width: 400px;
+}
