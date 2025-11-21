@@ -16,6 +16,8 @@ function submit() {
                         <h5 class="card-title text-info">${line.Title}</h5>
                         <p class="card-text text-light">Type : ${line.Type}</p>
                         <p class="card-text text-light">Year : ${line.Year}</p>
+                        <p class="card-text text-light">IMDB id : ${line.imdbID}</p>
+                        <button><a href="details.html?name=${line.Title}">View details</a></button>
                     </div>
                 </div>
                 `
