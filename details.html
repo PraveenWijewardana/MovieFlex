@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MovieFlex/css/bootstrap.css">
+    <link rel="stylesheet" href="MovieFlex/css/search.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-overlay">
+            <a class="back-btn" href="search.html" title="Home">← Back</a>
+            <div class="container hero-inner">
+                <div class="poster">
+                    <img src="" alt="Movie Poster" id="movImage" class="movImage">
+                </div>
+                <div class="meta">
+                    <span class="label">Now Showing</span>
+                    <h1 class="title" id="title"></h1>
+                    <p class="sub" id="sub"></p>
+                    <div class="actions">
+                        <button class="btn primary">Get Tickets</button>
+                        <button class="btn outline">Find Showtimes</button>
+                    </div>
+                    <div class="details-grid">
+                        <div>
+                            <strong>Director</strong>
+                            <div id="Director"></div>
+                        </div>
+                        <div>
+                            <strong>Starring</strong>
+                            <div>Chris Pine, Ben Foster, Jeff Bridges</div>
+                        </div>
+                        <div>
+                            <strong>Runtime</strong>
+                            <div id="rTime"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <section class="showtimes-reviews">
+            <div class="left">
+                <div class="panel showtimes">
+                    <h2>Ratings</h2>
+                    <ul id="ratings">
+                       
+                    </ul>
+                </div>
+                <div class="panel reviews">
+                    <h2>Reviews</h2>
+                    <p class="excerpt" id="Review"></p>
+                </div>
+            </div>
+            <aside class="right">
+                <div class="gallery">
+                    <img src="" id="movImage0">
+                    <div class="thumbs">
+                        <img src="" id="movImage1">
+                        <img src="" id="movImage2">
+                        <img src="" id="movImage3">
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section class="find-buy">
+            <div class="panel find">
+                <h3>Awards</h3>
+                <p id="Awards"></p>
+            </div>
+            <div class="panel buy">
+                <h3>Buy Tickets</h3>
+                <p>Secure your seat now.</p>
+                <button class="btn primary">Buy Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="left">Coolidge Corner Theatre Foundation · Contact</div>
+            <div class="right">Follow Us · Social</div>
+        </div>
+    </footer>
+
+    <script src="MovieFlex/js/details.js"></script>
+</body>
+</html>
