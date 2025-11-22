@@ -1,0 +1,93 @@
+.sidebar{
+    background: linear-gradient(180deg, #2f2f2f 0%, #242424 100%);
+    border-radius: 18px;
+    min-height: 680px;
+    color: #cfcfcf;
+}
+
+body{
+    background-color: #3f3f3f;
+    font-family: 'Montserrat', sans-serif;
+    color: #eee;
+}
+
+.logo img{
+    max-width: 160px;
+}
+
+.nav-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li{
+    padding: 14px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #bfbfbf;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.nav-menu li.active{
+    background-color: rgba(255,255,255,0.04);
+    color: #fff;
+}
+
+
+.topbar .form-select, .topbar .form-control{
+    background: rgba(0,0,0,0.25);
+    border: none;
+    color: #fff;
+}
+
+.hero-card{
+    position: relative;
+    height: 560px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-image: url('../images/1111.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.hero-overlay{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 34px;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.6) 100%);
+}
+
+.tags .badge{
+    border-radius: 16px;
+    padding: 6px 12px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-title{
+    font-family: 'Pacifico';
+    font-size: 58px;
+    color: #fff;
+    margin: 6px 0 12px 0;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.hero-desc{
+    max-width: 640px;
+    color: rgba(255,255,255,0.95);
+    font-size: 15px;
+    line-height: 1.6;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+.img-fluid{
+    height: 200px;
+    width: 400px;
+}
